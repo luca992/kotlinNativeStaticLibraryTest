@@ -7,8 +7,8 @@
 int main()
 {
     //If you comment out the following two lines using the kotlin lib it will compile it run
-    //libstaticlibtest_kref_co_test_test s = libstaticlibtest_symbols()->kotlin.root.co.test.test.test();
-    //libstaticlibtest_symbols()->kotlin.root.co.test.test.callMe(s);
+    libstaticlibtest_kref_co_test_test s = libstaticlibtest_symbols()->kotlin.root.co.test.test.test();
+    libstaticlibtest_symbols()->kotlin.root.co.test.test.callMe(s);
     
     double v1, v2, m;
     v1 = 5.2;
